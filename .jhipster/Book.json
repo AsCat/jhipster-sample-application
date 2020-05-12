@@ -1,0 +1,26 @@
+{
+    "name": "Book",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Float"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200512124100",
+    "entityTableName": "book",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "jhipsterSampleApplication",
+    "applications": "*",
+    "microserviceName": "jhipsterSampleApplication"
+}
