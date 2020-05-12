@@ -1,0 +1,14 @@
+entity Book {
+	name String
+    price Float
+}
+
+entity Author {
+	name String
+    age Integer
+    address String
+}
+
+relationship OneToMany {
+	Author to Book
+}
